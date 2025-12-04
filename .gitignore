@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# SQLite DBs and generated files
+*.db
+*.sqlite
+*.sqlite3
+
+# Data exports and reports
+*.csv
+*.pdf
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and compiled
+*.log
+*.pyc
+
+# optionally ignore JSON of sensitive data
+data/*.json
