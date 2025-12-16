@@ -724,5 +724,5 @@ def instituicoes_ranking(ano: int):
 
 
 if __name__ == '__main__':
-    # Adicionar host='0.0.0.0' para garantir acessibilidade em alguns ambientes
-    app.run(debug=False, host='0.0.0.0')
+    
+    app.run(debug=True)
